@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+     <script>
+    let students = [
+      "Luna", "Milo", "Zane", "Eliot", "Grace",
+      "David", "Alexandria", "Christopher", 
+      "Margaritha", "Constantinopley", "Maximilianosky", "Featherlighton"
+    ]
+
+    let houses = []
+
+    for (let i = 0; i < students.length; i++) {
+        if (i<4){
+            houses.push("red house")
+        }    
+        else if(i < 8){
+            houses.push("green house")
+        
+        }
+        else {
+            houses.push("black house")
+        }
+
+        console.log(`${students[i] } is assigned to ${houses[i]}`);
+        
+        
+        
+    }
+
+
+  </script>
+</body>
+
+</html>
